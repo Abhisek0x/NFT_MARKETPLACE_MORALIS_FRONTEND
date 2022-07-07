@@ -87,8 +87,6 @@ yarn moralis:sync
 
 You'll know you've done it right when you can see a green `connected` button after hitting the refresh symbol next to `DISCONNECTED`. *You'll want to keep this connection running*.
 
-<img src="./img/connected.png" width="200" alt="Connected to Moralis Reverse Proxy">
-
 ### IMPORTANT
 
 Anytime you reset your hardhat node, you'll need to press the `RESET LOCAL CHAIN` button on your UI!
@@ -101,10 +99,7 @@ Run `yarn moralis:cloud` in one terminal, and run `yarm moralis:logs` in another
 
 > Note: You can stop these after running them once if your server is at max CPU capactity. 
 
-If you hit the little down arrow in your server, then hit `Cloud Functions` you should see text in there. 
-
-<img src="./img/down-arrow.png" width="500" alt="Cloud Functions Up">
-<img src="./img/functions.png" width="250" alt="Cloud Functions Up">
+If you hit the little down arrow in your server, then hit `Cloud Functions` to check if the proper code is synced.
 
 Make sure you've run `yarn moralis:sync` from the previous step to connect your local Hardhat devchain with your Moralis instance. You'll need these 3 moralis commands running at the same time. 
 
@@ -197,7 +192,9 @@ And you'll have your front end, indexing service running, and blockchain running
 1. Clone the backend repo
 
 ```
-git clone https://github.com/PatrickAlphaC/hardhat-nft-marketplace-fcc
+git clone https://github.com/Abhisek0x/NFT_MARKETPLACE_MORALIS_BACKEND.git
+cd NFT_MARKETPLACE_MORALIS_BACKEND
+yarn
 cd hardhat-nextjs-nft-marketplace-fcc
 yarn
 yarn hardhat node
