@@ -21,8 +21,8 @@
 In it's own terminal / command line, run: 
 
 ```
-git clone https://github.com/PatrickAlphaC/hardhat-nft-marketplace-fcc
-cd hardhat-nextjs-nft-marketplace-fcc
+git clone https://github.com/Abhisek0x/NFT_MARKETPLACE_MORALIS_FRONTEND.git
+cd NFT_MARKETPLACE_MORALIS_FRONTEND
 yarn
 ```
 
