@@ -207,8 +207,8 @@ Leave that terminal running^
 2. Clone the frontend
 
 ```
-git clone https://github.com/PatrickAlphaC/nextjs-nft-marketplace-moralis-fcc
-cd nextjs-nft-marketplace-moralis-fcc
+git clone https://github.com/Abhisek0x/NFT_MARKETPLACE_MORALIS_FRONTEND.git
+cd NFT_MARKETPLACE_MORALIS_FRONTEND
 yarn
 ```
 
